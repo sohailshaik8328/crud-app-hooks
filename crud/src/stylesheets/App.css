@@ -1,0 +1,94 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Custom styles */
+
+.container {
+  max-width: 320px;
+  width: 100%;
+  margin: auto;
+}
+.flex {
+  display: flex;
+}
+.align_center {
+  align-items: center;
+}
+.between {
+  justify-content: space-between;
+}
+.center {
+  justify-content: center;
+}
+form {
+  margin: 1rem auto;
+  text-align: center;
+}
+input, .btn {
+  display: block;
+  margin-top: 0.8rem;
+}
+.card {
+  /* border: 1px solid black; */
+  box-shadow: -2px -2px 2px rgba(128, 128, 128, 0.267), 2px 2px 2px rgba(128, 128, 128, 0.425);
+  border-radius: 3px;
+  padding: 0.5rem;
+  position: relative;
+  margin-top: 0.5rem;
+}
+.username {
+  margin-left: 1rem;
+}
+.cross {
+  color: red;
+  /* margin-left: 13rem; */
+  cursor: pointer;
+  position: absolute;
+  right: 0.8rem;
+}
